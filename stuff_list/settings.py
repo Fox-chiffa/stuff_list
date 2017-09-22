@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['ec2-main.lozorg.ml']
 # Application definition
 
 INSTALLED_APPS = [
+    'board_game.apps.BoardGameConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
